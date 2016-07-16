@@ -18,8 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".MainMenu" />
         <activity android:name=".MenuActivity"></activity>
+=======
+
+        <activity android:name=".IntroApp"></activity>
+
+        <activity android:name=".MainMenu"></activity>
+
+>>>>>>> origin/master
     </application>
 
 </manifest>
