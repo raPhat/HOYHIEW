@@ -21,12 +21,13 @@
             android:orientation="vertical"
             android:gravity="center">
 
-            <Button
+
+
+            <ImageView
+                android:id="@+id/ImageButton01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="กินไรดี"
-                android:id="@+id/button"
-                android:layout_gravity="center" />
+                android:src="@drawable/random"/>
 
 
 
@@ -39,12 +40,14 @@
             android:orientation="vertical"
             android:gravity="center">
 
-            <Button
+
+            <ImageView
+                android:id="@+id/ImageButton02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="สุ่ม"
-                android:id="@+id/button2"
-                android:layout_gravity="center" />
+                android:src="@drawable/menu"/>
+
+
 
 
 
