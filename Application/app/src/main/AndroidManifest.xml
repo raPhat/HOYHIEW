@@ -9,11 +9,24 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+=======
+<<<<<<< HEAD
+>>>>>>> 4bbd70909b07866badc541085629c84d8a43a6e3
         android:theme="@style/AppTheme"
         android:largeHeap="true">
 
         <activity android:name=".MainActivity"></activity>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 605350fdc8ee79c7ffe306da5111b3f784613c66
+>>>>>>> 9f6260fbe4725d67b019b568aa5fe42a0b3e235c
+>>>>>>> 4bbd70909b07866badc541085629c84d8a43a6e3
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,9 +34,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+        <activity android:name=".IntroApp" />
+        <activity android:name=".MainMenu" />
+=======
 
         <activity android:name=".MainMenu" />
         <activity android:name=".MenuActivity"></activity>
+>>>>>>> 9f6260fbe4725d67b019b568aa5fe42a0b3e235c
 
     </application>
 

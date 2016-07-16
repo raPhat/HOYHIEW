@@ -24,7 +24,11 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
                 finish();
+<<<<<<< HEAD
+                Intent goMain = new Intent(getApplicationContext(),IntroApp.class);
+=======
                 Intent goMain = new Intent(getApplicationContext(),MenuActivity.class);
+>>>>>>> 9f6260fbe4725d67b019b568aa5fe42a0b3e235c
                 startActivity(goMain);
                 overridePendingTransition(R.transition.activity_fade, R.transition.fade_out);
             }
