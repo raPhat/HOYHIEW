@@ -1243,3 +1243,12 @@ Application/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/e
 Application/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/th/co/hoyhiew/hoyhiewapplication/R$transition.class
 Application/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/th/co/hoyhiew/hoyhiewapplication/SplashActivity$1.class
 Application/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/th/co/hoyhiew/hoyhiewapplication/SplashActivity.class
+Application/.idea/libraries/android_async_http_1_4_9.xml
+Application/.idea/libraries/httpclient_4_3_6.xml
+Application/app/src/main/java/th/co/hoyhiew/hoyhiewapplication/FoodsAdapter.java
+Application/app/src/main/java/th/co/hoyhiew/hoyhiewapplication/MenuActivity.java
+Application/app/src/main/java/th/co/hoyhiew/hoyhiewapplication/SingletonFoods.java
+Application/app/src/main/java/th/co/hoyhiew/hoyhiewapplication/food.java
+Application/app/src/main/res/layout/activity_menu.xml
+Application/app/src/main/res/layout/list_foods.xml
+foods.json

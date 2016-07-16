@@ -9,11 +9,14 @@ import android.os.Bundle;
 public class SplashActivity extends Activity {
 
     private Handler myHandler;
+    private SingletonFoods singleton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        singleton = SingletonFoods.getInstance();
 
         myHandler = new Handler();
 
@@ -21,7 +24,7 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
                 finish();
-                Intent goMain = new Intent(getApplicationContext(),MainActivity.class);
+                Intent goMain = new Intent(getApplicationContext(),MenuActivity.class);
                 startActivity(goMain);
                 overridePendingTransition(R.transition.activity_fade, R.transition.fade_out);
             }
