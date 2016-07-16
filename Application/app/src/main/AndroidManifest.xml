@@ -9,16 +9,11 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:theme="@style/AppTheme"
         android:largeHeap="true">
 
-        <activity android:name=".MainActivity">
-        </activity>
-=======
-        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
->>>>>>> 605350fdc8ee79c7ffe306da5111b3f784613c66
+
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
