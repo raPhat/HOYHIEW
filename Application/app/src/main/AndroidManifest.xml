@@ -17,11 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity android:name=".IntroApp"></activity>
-=======
+
         <activity android:name=".MainMenu"></activity>
->>>>>>> c881d1b5a5cff73b737377114c18fd227f94b141
+
     </application>
 
 </manifest>
